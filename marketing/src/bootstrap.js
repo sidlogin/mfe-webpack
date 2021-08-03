@@ -8,6 +8,7 @@ const mount = (el) => {
 };
 
 if (process.env.NODE_ENV === 'development') {
+     const marketingRootElement = document.querySelector('#_marketing-dev-root');
      if(marketingRootElement) {
           mount(marketingRootElement);
      }
